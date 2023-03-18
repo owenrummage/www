@@ -23,6 +23,7 @@ if ($row["Title"] == "") {
 	</head>
 
 	<body>
+<?php require("./helpers/partials/header.php"); ?>
 <pre>
 <?php echo $row["Title"] .
     " (" .
