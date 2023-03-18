@@ -1,4 +1,7 @@
 <?php
+require "helpers/db/Quote.php";
+
+$row = getRandomQuote();
 ?>
 
 
@@ -15,7 +18,10 @@
 ------------------------------------------------------
 </pre>
 <pre style="margin-top:0;">
-Usually there would be quotes here, but Jared broke the server
+<?php if ($row["Quote"]) {
+    $input = '"' . $row["Quote"] . '" - ' . $row["Person"];
+    echo str_pad($input, 54, " ", STR_PAD_BOTH);
+} ?>
 </pre>
 		</div>
 	</body>
