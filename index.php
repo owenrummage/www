@@ -12,11 +12,6 @@ $headlines = getAllHeadlines();
 <html>
 	<head>
 		<title>Owen Rummage - Home</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
-    <!-- Jquery Terminal -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.3/js/jquery.terminal.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.3/css/jquery.terminal.min.css" rel="stylesheet"/>
 	</head>
 
 	<body>
