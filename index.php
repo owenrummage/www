@@ -27,7 +27,7 @@ philanthropy for open source projects on the side. Im currently a senior in
 high school and I love computers generally. I have taken on a more minimalist
 tech approach so I still have a lot of social media accounts that I just
 abandoned. I tend to just lurk in the shadows mostly. Im an avid linux user
-(ArchLinux, i3-gaps, Friefox, and ST are my go-to tools) but I also dont disrespect
+(ArchLinux, i3, Friefox, and ST are my go-to tools) but I also dont disrespect
 the windows or mac community. I try to be an all around likeable guy, and you
 can usually find me at makerspaces, makerfaires, or on some IRC/Discord
 servers. If you do see me out in the wild dont shy away from saying hello! I
