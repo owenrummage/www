@@ -65,7 +65,7 @@ MY LATEST THOGUHTS
         ")\n";
 } ?>
 
-MY PROJECTS
+MY PROJECTS (should auto update but arent)
 ------------
 <?php while ($row = $repos->fetch_assoc()) {
     echo "  * <a href='" .
