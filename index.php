@@ -44,11 +44,11 @@ and my <a href="/quotes.php">quotes book</a>.
 LATEST NEWS
 ------------
 <?php while ($row = $headlines->fetch_assoc()) {
-    echo "	" .
+    echo "  " .
         $row["Headline"] .
         " (" .
         explode(" ", $row["Date"])[0] .
-        ")\n	  * " .
+        ")\n     * " .
         $row["Description"] .
         "\n";
 } ?>
@@ -56,7 +56,7 @@ LATEST NEWS
 MY LATEST THOGUHTS
 -------------------
 <?php while ($row = $posts->fetch_assoc()) {
-    echo '	* <a href="/blog.php?post=' .
+    echo '  * <a href="/blog.php?post=' .
         $row["ID"] .
         '">' .
         $row["Title"] .
@@ -68,7 +68,7 @@ MY LATEST THOGUHTS
 MY PROJECTS
 ------------
 <?php while ($row = $repos->fetch_assoc()) {
-    echo "	* <a href='" .
+    echo "  * <a href='" .
         $row["Link"] .
         "'>" .
         $row["Name"] .
