@@ -12,6 +12,11 @@ $headlines = getAllHeadlines();
 <html>
 	<head>
 		<title>Owen Rummage - Home</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <!-- Jquery Terminal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.3/js/jquery.terminal.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.3/css/jquery.terminal.min.css" rel="stylesheet"/>
 	</head>
 
 	<body>
@@ -95,10 +100,10 @@ purposes</i> then feel free to import my GPG keys and send away!
 <code>curl https://rummage.cc/me.gpg | gpg --import</code>
 <!-- https://www.reddit.com/user/never_the_worst ;)  --!>
 
+
 </pre>
 
-
-<pre style="position:absolute; bottom:0;">An <a style="color: black; text-decoration: none;" href="https://rummage.cc">Owen Rummage</a> Production</pre>
+<!--<pre style="position:absolute; bottom:0;">An <a style="color: black; text-decoration: none;" href="https://rummage.cc">Owen Rummage</a> Production</pre>-->
     </div>
   </body>
 </html>
