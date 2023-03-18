@@ -1,3 +1,14 @@
+<?php
+require "helpers/db/Repos.php";
+require "helpers/db/Headlines.php";
+require "helpers/db/Posts.php";
+
+$posts = getAllPosts();
+$repos = getAllRepos();
+$headlines = getAllHeadlines();
+?>
+
+
 <html>
 	<head>
 		<title>Owen Rummage - Home</title>
@@ -29,6 +40,42 @@ can usually find me at makerspaces, makerfaires, or on some IRC/Discord
 servers. If you do see me out in the wild dont shy away from saying hello! I
 love meeting new people. Some other pages you should check out are my <a href="/blog.php">blog</a>
 and my <a href="/quotes.php">quotes book</a>.
+
+LATEST NEWS
+------------
+<?php while ($row = $headlines->fetch_assoc()) {
+    echo "	" .
+        $row["Headline"] .
+        " (" .
+        explode(" ", $row["Date"])[0] .
+        ")\n	  * " .
+        $row["Description"] .
+        "\n";
+} ?>
+
+MY LATEST THOGUHTS
+-------------------
+<?php while ($row = $posts->fetch_assoc()) {
+    echo '	* <a href="/blog.php?post=' .
+        $row["ID"] .
+        '">' .
+        $row["Title"] .
+        "</a> (" .
+        explode(" ", $row["Date"])[0] .
+        ")\n";
+} ?>
+
+MY PROJECTS
+------------
+<?php while ($row = $repos->fetch_assoc()) {
+    echo "	* <a href='" .
+        $row["Link"] .
+        "'>" .
+        $row["Name"] .
+        "</a>  " .
+        $row["Description"] .
+        "\n";
+} ?>
 
 WEBSITES
 ---------
