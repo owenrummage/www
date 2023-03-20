@@ -89,6 +89,9 @@ purposes</i> then feel free to import my GPG keys and send away!
 <!-- https://www.reddit.com/user/never_the_worst ;)  --!>
 
 
+
+P.S. Do you like good servers? Do you want to give me 100$? Use my affiliate
+link at Interserver and do both! https://www.interserver.net/r/890212
 </pre>
 
 <!--<pre style="position:absolute; bottom:0;">An <a style="color: black; text-decoration: none;" href="https://rummage.cc">Owen Rummage</a> Production</pre>-->
