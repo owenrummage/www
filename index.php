@@ -90,7 +90,8 @@ purposes</i> then feel free to import my GPG keys and send away!
 
 
 
-P.S. Do you like good servers? Do you want to give me 100$? Use my affiliate
+P.S. Do you like good servers? Do you want to abuse corporate america for me to
+get 100$ from a company for you buying a 2$ web hosting plan? Use my affiliate
 link at Interserver and do both! https://www.interserver.net/r/890212
 </pre>
 
