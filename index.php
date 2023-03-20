@@ -79,7 +79,7 @@ WEBSITES
 
 SOCIALS
 --------
-I dont really use social medias, and the ones I have are for my close friends.
+I have a few social medias but I dont check them so I wont list them here.
 If you really want to talk to me the main place is my email. Emails can be sent
 to <code>hello@rummage.cc</code> and ill get back to them eventually.
 
