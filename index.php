@@ -8,7 +8,7 @@ $repos = getAllRepos();
 $headlines = getAllHeadlines();
 
 
-$code = $_GET["code"];
+$code = $_GET["ref"];
   
 require("./helpers/db/Referrals.php");
 
