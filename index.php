@@ -6,6 +6,15 @@ require "helpers/db/Posts.php";
 $posts = getAllPosts();
 $repos = getAllRepos();
 $headlines = getAllHeadlines();
+
+
+$code = $_GET["code"];
+  
+require("./helpers/db/Referrals.php");
+
+if(isset($code)){
+  addVisit($code);
+}
 ?>
 
 
