@@ -1,3 +1,4 @@
+<pre>
 .____     ___________ ________        _______       ____ 
 |    |    \_   _____//  _____/  ___  _\   _  \     /_   |
 |    |     |    __)_/   \  ___  \  \/ /  /_\  \     |   |
@@ -37,3 +38,4 @@ MIDDLE ENDIAN
 * Then we take the two words that are on either side of the most significant byte
 * We put those words’ most significant bytes in the middle
 * Repeat until the entire word is sorted
+</pre>
